@@ -20,7 +20,7 @@ I certify that I have listed all sources used to complete this exercise, includi
 Your answer must derive probabilities for choosing a good pivot and
 quantitatively reason with them.
 
-Finding a good pivot using this approach will be more likey to pick a good pivot. While, from slide 34, only looking at the first number could be the greatest or least greatest number, with the comparisons being $/theta$ (nlogn), where as with chosing a median, the value does not have as great of a possibility of being on one side or the other.
+Finding a good pivot using this approach will be more likey to pick a good pivot. While, from slide 34, only looking at the first number could be the greatest or least greatest number, with the comparisons being $/theta$ (nlogn), where as with chosing a median, the value has a lower probability on being on either side of the sorted list.
 
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
