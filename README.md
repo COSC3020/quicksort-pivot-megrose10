@@ -21,7 +21,7 @@ Your answer must derive probabilities for choosing a good pivot and
 quantitatively reason with them.
 
 If we choose the median-of-three, we have a $1/3$ possibility of choosing a good pivot. We would have partition sizes going at a size
-of at most $(2n)/3$. While or 2n/3 is under the at most partition size of 3n/4, we will pick a good pivot every 3 tries, which is less than the every two tries.
+of at most $(2n)/3$. While 2n/3 is under the at most partition size of 3n/4, we will pick a good pivot every 3 tries, which is less than the every two tries.
 This would effectively mean we would find a pivot less times averagely than choosing the first element, so this would be less likely to choose a good pivot.
 
 Add your answer to this markdown file. [This
