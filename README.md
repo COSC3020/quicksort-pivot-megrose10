@@ -13,7 +13,7 @@ whether this method is more or less (or equally) likely to pick a good pivot
 compared to simply choosing the first element. Assume that all permutations are
 equally likely, i.e. the input array is ordered randomly.
 
-I used the lecture slides/video on sorting, quicksort to look at slide 34. 
+I used the lecture slides/video on sorting, quicksort to look at slide 34 to review the material.
 
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
 
