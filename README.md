@@ -20,7 +20,9 @@ I certify that I have listed all sources used to complete this exercise, includi
 Your answer must derive probabilities for choosing a good pivot and
 quantitatively reason with them.
 
-Finding a good pivot using this approach will be more likey to pick a good pivot. While, from slide 34, only looking at the first number could be the greatest or least greatest number, with the comparisons being $/theta$ (nlogn), where as with chosing a median, the value has a lower probability on being on either side of the sorted list.
+If we choose the median-of-three, we have a $1/3$ possibility of choosing a good pivot. We would have partition sizes going at a size
+of at most $(2n)/3$. This overall gives us a better probability of choosing a good pivot since the partiton size would be greater than
+choosing the first element as a pivot. 
 
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
