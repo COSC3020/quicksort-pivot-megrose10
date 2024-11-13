@@ -13,18 +13,15 @@ whether this method is more or less (or equally) likely to pick a good pivot
 compared to simply choosing the first element. Assume that all permutations are
 equally likely, i.e. the input array is ordered randomly.
 
-I used the lecture slides/video on sorting, quicksort to look at slide 34 to review the material and compare my answer.
+I used the lecture slides/video on sorting, quicksort to look at slide 34 to review the material and compare my answer. Ali Torabi showed me a link https://walkccc.me/CLRS/Chap07/Problems/7-5/ to understand the math side of this. 
 
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
 
 Your answer must derive probabilities for choosing a good pivot and
 quantitatively reason with them.
 
-If we choose the median-of-three, we have a $1/3$ possibility of choosing a good pivot. We would have partition sizes going at a size
-of at most $(2n)/3$. While 2n/3 is under the at most partition size of 3n/4, we will pick a good pivot every 3 tries. Since the partion size of getting a good pivot 
-out of the data set is less than the partition size of choosing the first element, this gives us a higher chance to find a better pivot point. 
-Since we test 3 numbers, this throws out two worse pivots, while choosing the first pivot does not get rid of any bad pivots, 
-so you are able to choose the worst pivot in this case. 
+If we choose the method of median-of-three, we get a probability of 3/2, since the probability of choosing the first number is 1/2, this probability of finding a good pivot is higher
+with the method of median-of-three. We also have partition sizes going up to 2n/3, which is a more narrow partition than 3n/4, which is the partition size choosing the first element in the list.
 
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
