@@ -20,13 +20,14 @@ I certify that I have listed all sources used to complete this exercise, includi
 Your answer must derive probabilities for choosing a good pivot and
 quantitatively reason with them.
 
-When choosing 3 random elements, the array is essentially split into 4 parts. The middle includes the best pivots which is about 1/2 of the array, and the left and right sides are each 1/4 probabilty of holding the pivot. While looking at this, let's look at the 3! or 6 possibillies.
-1. If all 3 elements are chosen in the middle, we have (1/2) * (1/2) * (1/2) = 1/6
-2. If all 3 elements are chosen on the left side, we have (1/4) * (1/4) * (1/4) = 1/64
-3. If all 3 elements are chosen on the right side, we have (1/4) * (1/4) * (1/4) = 1/64
-4. If two elements are on the left, 1 is in the middle, we have (1/4) * (1/4) * (1/2) = 1/32
-5. If two elements are on the right, 1 is in the middle, we have (1/4) * (1/4) * (1/2) = 1/32
-6. If one element is on the right, 1 is in the middle, and 1 is on the left, we have (1/4) * (1/2) * (1/4) = 1/32
+When choosing 3 random elements, the array is essentially split into 3 parts, left, middle, and right. The middle includes the best pivots which is about 1/2 of the array, and the left and right sides are each 1/4 probabilty of holding the pivot. While looking at this, let's look at the 3! or 6 possibillies.
+1. Elements are chosen left, middle, right = $(1/4) * (1/2) * (1/4)$ = $(1/32)$
+2. Elements are chose left, left, middle = $(1/4) * (1/4) * (1/2)$ = $(1/32)$
+3. Elemenets are chosen middle, right, right = $(1/2) * (1/4) * (1/4)$ = $(1/32)$
+4. Elements are chosen left, left, left or right right right = $(1/4) * (1/4) * (1/4)$ = $(1/64)$
+5. Elements are chosen left, left, right = $(1/4) * (1/4) * (1/4)$ = $(1/64)$
+6. Elements are chosen right, right, left = $(1/4) * (1/4) * (1/4)$ = $(1/64)$
+
 
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
