@@ -28,6 +28,8 @@ When choosing 3 random elements, the array is essentially split into 3 parts, le
 5. Elements are chosen left, left, right = $(1/4) * (1/4) * (1/4)$ = $(1/64)$
 6. Elements are chosen right, right, left = $(1/4) * (1/4) * (1/4)$ = $(1/64)$
 
+With the middle being a half and being the best case pivot value, this increases the odds of finding a good pivot. 
+
 
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
