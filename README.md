@@ -26,7 +26,7 @@ When choosing 3 random elements, the array is essentially split into 3 parts, le
 2. Elements are chosen left, middle, middle = $(1/4) * (1/2) * (1/2) = 1/16 $
    a.) Three ways it can switch around (LMM, MLM, MML) so $(1/16) * 3 = 3/16 = 12/64$
 3. Elements are chosen middle, middle, middle = $(1/2) * (1/2) * (1/2)$ = $(1/8)$
-   a.) One way it can switch around (MMM) so $(1/8) * 8/64$
+   a.) One way it can switch around (MMM) so $(1/8) = 8/64$
 4. Elements are chosen middle, middle, right = $(1/2) * (1/2) * (1/4) = 1/16 $
    a.) Three ways it can switch around (MMR, MRM, RMM) so $(1/16) * 3 = 3/16 = 12/64$
 
